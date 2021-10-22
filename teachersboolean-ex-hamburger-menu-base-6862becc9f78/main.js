@@ -5,7 +5,7 @@ const navMenu = document.querySelector('hamburger-menu.active');
 
 
 hamburger.addEventListener('click', function(){
-    
+    console.log('click');
 })
 
 
