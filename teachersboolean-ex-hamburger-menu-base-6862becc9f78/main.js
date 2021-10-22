@@ -5,7 +5,7 @@ const navMenu = document.querySelector('.hamburger-menu');
 
 
 hamburger.addEventListener('click', function() {
-    navMenu.className += ' hamburger-menu.active';
+    navMenu.className = ' hamburger-menu.active';
 });
 
 
