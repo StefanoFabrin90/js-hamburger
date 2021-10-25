@@ -1,11 +1,17 @@
 // ref
 
-const hamburger = document.querySelector('.header-right > a');
-const navMenu = document.querySelector('.hamburger-menu');
+const menuToggle = document.querySelector('.header-right > a');
+const hamburgerMenu = document.querySelector ('.hamburger-menu');
+const closeButton = document.querySelector ('.close');
 
 
-hamburger.addEventListener('click', function() {
-    navMenu.className = ' hamburger-menu.active';
+
+menuToggle.addEventListener('click', function() {
+    hamburgerMenu.classList.add ('active');
+});
+
+closeButton.addEventListener('click', function() {
+    hamburgerMenu.classList.remove ('active');
 });
 
 
